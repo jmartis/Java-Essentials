@@ -58,7 +58,7 @@ public class Main extends JFrame implements Runnable{
 		this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		this.setUndecorated(true);
 		this.add(paneel);
-	    s.starter(); //aanpassen , muziek activeren ? verwijder comment syntax
+	   // s.starter(); //aanpassen , muziek activeren ? verwijder comment syntax
 	
 		//this.run(dm);
 		this.setVisible(true);
