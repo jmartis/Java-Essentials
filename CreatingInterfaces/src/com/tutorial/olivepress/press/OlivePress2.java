@@ -4,12 +4,12 @@ import java.util.Collection;
 
 import com.tutorial.olivepress.olives.Olive;
 
-public class OlivePress2 implements Press{
+public class OlivePress2 implements Press {
 
 	@Override
 	public void getOil(Collection<Olive> olives) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
@@ -21,7 +21,7 @@ public class OlivePress2 implements Press{
 	@Override
 	public void setTotalOil(int totalOil) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }

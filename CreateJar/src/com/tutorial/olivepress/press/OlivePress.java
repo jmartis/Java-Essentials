@@ -4,11 +4,10 @@ import java.util.ArrayList;
 
 import com.tutorial.olivepress.olives.Olive;
 
-
 public class OlivePress {
-	
+
 	private int totalOil = 0;
-	
+
 	public int getTotalOil() {
 		return totalOil;
 	}
@@ -17,21 +16,19 @@ public class OlivePress {
 		this.totalOil += totalOil;
 	}
 
-	public OlivePress(){
-		
+	public OlivePress() {
+
 	}
-	
-	public void getOil(ArrayList<Olive> olives){
-		
+
+	public void getOil(ArrayList<Olive> olives) {
+
 		int oil = 0;
-		
+
 		for (Olive olive : olives) {
 			oil += olive.crush();
 		}
 		setTotalOil(oil);
-		
-		
-	}
 
+	}
 
 }

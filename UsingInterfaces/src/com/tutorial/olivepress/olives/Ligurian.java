@@ -7,8 +7,7 @@ public class Ligurian extends Olive {
 		this.name = "Kalamata";
 		this.flavor = "Yummy";
 		this.color = Olive.GREEN;
-		
-	
+
 	}
 
 }

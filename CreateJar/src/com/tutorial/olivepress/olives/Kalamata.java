@@ -7,7 +7,6 @@ public class Kalamata extends Olive {
 		this.name = "Kalamata";
 		this.flavor = "Grassy";
 		this.color = Olive.BLACK;
-		
 
 	}
 
